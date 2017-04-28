@@ -1,0 +1,14 @@
+Switch from 'react-router-dom'
+    Sirve para las urls que se repiten solo muestre la primera de la lista que concuerde con la url
+
+Form redux
+    Se importa en reducers index
+
+
+Form redux nuevo
+    Connect, ahora se tiene que importar el connect y ponerlo dentro de los parentesis
+    export default reduxForm({form:'NewForm'})(connect(state, dispatch)(componente))
+
+
+Navegacion programable
+    this.props.history.push();
